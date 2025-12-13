@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AR Properties | Luxury Living</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Premium Residences</p>
+      <h1 class="hero__title">AR Properties</h1>
+      <p class="hero__subtitle">Where Luxury Meets Lifestyle</p>
+      <div class="hero__cta">
+        <!-- <input type="text" class="hero__input" placeholder="Enter email or phone" aria-label="Contact details"> -->
+        <button class="btn btn--primary" id="scheduleBtn" >Schedule a Visit</button>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span class="arrow">&#8595;</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="overview" id="overview">
+      <div class="overview__image-wrap">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80" alt="Modern luxury apartment building" class="overview__image">
+      </div>
+      <div class="overview__content">
+        <p class="section-eyebrow">Discover Excellence</p>
+        <h2 class="section-title">Project Overview</h2>
+        <p class="section-body">A premium semi-gated community apartment project located just 300 meters from Anutex, off the Warangal Highway, offering spacious 2BHK and 3BHK luxury flats ranging from 1120 to 1560 SFT. The five-floor project includes 65 exclusive East, West, and North-facing flats designed for natural light and ventilation. Premium amenities include a gym, kids play area, banquet hall, false ceiling throughout the flat, 24/7 security, CC cameras, power backup, and dedicated car parking. Construction is in progress with a February 2026 handover and 90% bank loan facility. Close to Uppal, ORR, metro, IT hubs, hospitals, and top educational institutions.</p>
+        <ul class="feature-list">
+          <li>Premium 2BHK & 3BHK Apartments</li>
+          <li>Modern Architecture & Design</li>
+          <li>World-Class Amenities</li>
+          <li>Prime Location</li>
+          <li>24/7 Security & Power Backup</li>
+        </ul>
+        <button class="btn btn--secondary" id="detailsBtn">Get More Details</button>
+      </div>
+    </section>
+
+    <section class="floorplans" id="floorplans">
+      <div class="floorplans__header">
+        <p class="section-eyebrow">Floor Plans</p>
+        <h2 class="section-title">Project Layouts</h2>
+        <p class="section-subtitle">Choose from our meticulously planned layouts designed for modern living</p>
+      </div>
+
+      <div class="floorplans__grid">
+        <article class="plan-card">
+          <div class="plan-card__image-wrap">
+            <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1400&q=80" alt="2BHK floor plan layout" class="plan-card__image">
+            <span class="plan-card__area">↗ 1,120 – 1,265 sq.ft</span>
+          </div>
+          <div class="plan-card__body">
+            <div class="plan-card__title-row">
+              <svg class="plan-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3 3 10v11h6v-5h6v5h6V10z" fill="currentColor"/>
+              </svg>
+              <h3 class="plan-card__title">2BHK Apartments</h3>
+            </div>
+            <p class="plan-card__description">Smartly planned residences with open living spaces, ample light, and efficient circulation.</p>
+            <ul class="plan-card__tags" aria-label="2BHK features">
+              <li>2 Bedrooms</li>
+              <li>2 Bathrooms</li>
+              <li>Living Room</li>
+                 <li>Kitchen</li>
+              <li>Balcony</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="plan-card">
+          <div class="plan-card__image-wrap">
+            <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1400&q=80" alt="3BHK floor plan layout" class="plan-card__image">
+            <span class="plan-card__area">↗ 1,505 – 1,560 sq.ft</span>
+          </div>
+          <div class="plan-card__body">
+            <div class="plan-card__title-row">
+              <svg class="plan-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3 3 10v11h6v-5h6v5h6V10z" fill="currentColor"/>
+              </svg>
+              <h3 class="plan-card__title">3BHK Apartments</h3>
+            </div>
+            <p class="plan-card__description">Expansive layouts with generous living areas and A balcony ideal for entertaining.</p>
+            <ul class="plan-card__tags" aria-label="3BHK features">
+              <li>3 Bedrooms</li>
+              <li>3 Bathrooms</li>
+              <li>Large Living Room</li>
+              <li>Kitchen</li>
+              <li>Balcony</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="location" id="location">
+      <div class="location__header">
+        <p class="section-eyebrow">Prime Location</p>
+        <h2 class="section-title">Location Highlights</h2>
+        <p class="section-subtitle">Strategically located in Boduppal, the heart of the city with excellent connectivity</p>
+      </div>
+
+      <div class="location__map-wrap">
+        <img
+          src="images/location.jpg"
+          alt="3D city map with location markers"
+          class="location__map"
+        >
+      </div>
+    </section>
+
+    
+
+    <section class="connectivity" id="connectivity">
+      <div class="connectivity__header">
+        <p class="section-eyebrow">Connectivity Highlights</p>
+        <h2 class="section-title">Connectivity Highlights</h2>
+        <p class="section-subtitle">Everything essential within minutes, connecting you to the best of the city</p>
+      </div>
+
+      <div class="connectivity__grid">
+        <article class="connect-card">
+          <div class="connect-card__icon-wrap">
+            <svg class="connect-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+            </svg>
+          </div>
+          <h3 class="connect-card__title">Metro Station</h3>
+          <p class="connect-card__text">10 mins drive</p>
+        </article>
+
+        <article class="connect-card">
+          <div class="connect-card__icon-wrap">
+            <svg class="connect-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M4 4h16v2H4V4zm2 4h12l-1 12H7L6 8zm3 2v6h2v-6H9zm4 0v6h2v-6h-2z"/>
+            </svg>
+          </div>
+          <h3 class="connect-card__title">Shopping Mall</h3>
+          <p class="connect-card__text">10 min walk</p>
+        </article>
+
+        <article class="connect-card">
+          <div class="connect-card__icon-wrap">
+            <svg class="connect-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M4 4h16v2H4V4zm2 4h12v12H6V8zm2 2v8h2v-8H8zm4 0v8h2v-8h-2z"/>
+            </svg>
+          </div>
+          <h3 class="connect-card__title">Top Schools</h3>
+          <p class="connect-card__text">Within 1 km</p>
+        </article>
+
+        <article class="connect-card">
+          <div class="connect-card__icon-wrap">
+            <svg class="connect-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/>
+            </svg>
+          </div>
+          <h3 class="connect-card__title">Multi-Specialty Hospital</h3>
+          <p class="connect-card__text">1 km away</p>
+        </article>
+
+        <article class="connect-card">
+          <div class="connect-card__icon-wrap">
+            <svg class="connect-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M3 6h18v2H3V6zm2 4h14v2H5v-2zm2 4h10v2H7v-2zm2 4h6v2H9v-2z"/>
+            </svg>
+          </div>
+          <h3 class="connect-card__title">Cafes &amp; Restaurants</h3>
+          <p class="connect-card__text">Nearby</p>
+        </article>
+
+        <article class="connect-card">
+          <div class="connect-card__icon-wrap">
+            <svg class="connect-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M5 11h14l-1.5 9h-11L5 11zm2.5-6h9l1 4H6.5l1-4z"/>
+            </svg>
+          </div>
+          <h3 class="connect-card__title">IT Parks</h3>
+          <p class="connect-card__text">15 mins drive</p>
+        </article>
+
+        <article class="connect-card">
+          <div class="connect-card__icon-wrap">
+            <svg class="connect-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M4 20h16v-2H4v2zm2-4h12v-2H6v2zm2-4h8v-2H8v2zm2-4h4V6h-4v2z"/>
+            </svg>
+          </div>
+          <h3 class="connect-card__title">Parks &amp; Recreation</h3>
+          <p class="connect-card__text">Walking distance</p>
+        </article>
+
+        <!-- <article class="connect-card">
+          <div class="connect-card__icon-wrap">
+            <svg class="connect-card__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M21 16v-2l-8-5V5.5a1.5 1.5 0 1 0-3 0V9l-8 5v2l8-2.5V19l-2 1v1l3-0.5 3 0.5v-1l-2-1v-5.5l8 2.5z"/>
+            </svg>
+          </div>
+          <h3 class="connect-card__title">Airport</h3>
+          <p class="connect-card__text">30 mins drive</p>
+        </article> -->
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <div class="contact__header">
+          <p class="contact__eyebrow">Get In Touch</p>
+          <h2 class="contact__title">Contact Us</h2>
+          <p class="contact__subtitle">Ready to find your dream home? Reach out to us today</p>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__form-card">
+            <form class="contact__form" id="contactForm">
+              <label class="contact__label" for="contact-name">Full Name</label>
+              <input id="contact-name" name="name" type="text" class="contact__input" placeholder="Enter your full name" required>
+
+              <label class="contact__label" for="contact-email">Email Address</label>
+              <input id="contact-email" name="email" type="email" class="contact__input" placeholder="Enter your email" required>
+
+              <label class="contact__label" for="contact-phone">Phone Number</label>
+              <input id="contact-phone" name="phone" type="tel" class="contact__input" placeholder="Enter your phone number" required>
+
+              <label class="contact__label" for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="4" class="contact__textarea" placeholder="How can we help you?" required></textarea>
+
+              <button type="submit" class="contact__submit">Submit</button>
+            </form>
+          </div>
+
+          <div class="contact__info">
+            <h3 class="contact__info-title">Visit Our Office</h3>
+            <p class="contact__info-text">We would love to meet you in person and walk you through Azure Heights.</p>
+
+            <ul class="contact__list">
+              <li class="contact__item">
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" class="contact__icon-svg"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>
+                </span>
+                <div>
+                  <p class="contact__item-label">Address</p>
+                  <p class="contact__item-value">Boduppal, budha nagar, Hyderabad</p>
+                </div>
+              </li>
+              <li class="contact__item">
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" class="contact__icon-svg"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1-.24 11.36 11.36 0 0 0 3.56.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h2.49a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.56 1 1 0 0 1-.24 1z"/></svg>
+                </span>
+                <div>
+                  <p class="contact__item-label">Phone</p>
+                  <p class="contact__item-value"><a href="tel:+919391610412">+91 9391610412</a></p>
+                </div>
+              </li>
+              <li class="contact__item">
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" class="contact__icon-svg"><path fill="currentColor" d="M4 4h16v2l-8 5-8-5V4zm0 4.5 8 5 8-5V20H4V8.5z"/></svg>
+                </span>
+                <div>
+                  <p class="contact__item-label">Email</p>
+                  <p class="contact__item-value"><a href="mailto:anjiraju1988@gmail.com">anjiraju1988@gmail.com</a></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- WhatsApp Icon -->
+  <a href="https://wa.me/919391610412" class="whatsapp-icon" target="_blank" rel="noopener noreferrer" title="Chat with us on WhatsApp" aria-label="Open WhatsApp">
+    <img src="images/whatsapp1.png" alt="WhatsApp">
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
