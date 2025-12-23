@@ -109,7 +109,7 @@
       <div class="location__header">
         <p class="section-eyebrow">Prime Location</p>
         <h2 class="section-title">Location Highlights</h2>
-        <p class="section-subtitle">Strategically located in Boduppal- buddha nagar, the heart of the city with excellent connectivity</p>
+        <p class="section-subtitle">Strategically located in Boduppal-buddha nagar, the heart of the city with excellent connectivity</p>
       </div>
 
       <div class="location__map-wrap">
@@ -279,11 +279,44 @@
   </main>
 
   <!-- WhatsApp Icon -->
-  <a href="https://wa.me/919391610412" class="whatsapp-icon" target="_blank" rel="noopener noreferrer" title="Chat with us on WhatsApp" aria-label="Open WhatsApp">
+  <a href="https://wa.me/919391610412" class="whatsapp-icon" id="whatsappBtn" target="_blank" rel="noopener noreferrer" title="Chat with us on WhatsApp" aria-label="Open WhatsApp">
     <img src="images/whatsapp1.png" alt="WhatsApp">
   </a>
+
+  <!-- Floating Contact Popup -->
+  <div id="contactPopup" class="contact-popup" aria-hidden="true">
+    <div class="popup-card" role="dialog" aria-labelledby="popupTitle" aria-modal="false">
+      <button type="button" id="popupClose" class="popup-close" aria-label="Close">✕</button>
+      <h3 class="popup-title" id="popupTitle">Get In Touch</h3>
+      <form id="floatingContactForm" class="popup-form" novalidate>
+        <div class="field">
+          <label for="fp-name">Name</label>
+          <input id="fp-name" name="name" type="text" placeholder="Your name" required>
+          <small class="error" id="fp-name-error" aria-live="polite"></small>
+        </div>
+
+        <div class="field">
+          <label for="fp-phone">Phone Number</label>
+          <input id="fp-phone" name="phone" type="tel" inputmode="numeric" placeholder="Digits only" required pattern="^[0-9]{7,15}$">
+          <small class="error" id="fp-phone-error" aria-live="polite"></small>
+        </div>
+
+        <div class="field" id="field-email">
+          <label for="fp-email">Email</label>
+          <input id="fp-email" name="email" type="email" placeholder="you@example.com" required>
+          <small class="error" id="fp-email-error" aria-live="polite"></small>
+        </div>
+
+        <div class="field" id="field-message">
+          <label for="fp-message">Message (optional)</label>
+          <textarea id="fp-message" name="message" rows="3" placeholder="Your message"></textarea>
+        </div>
+
+        <button type="submit" id="fp-submit" class="popup-submit" disabled>Submit</button>
+      </form>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
 </html>
-
